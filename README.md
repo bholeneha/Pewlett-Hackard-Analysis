@@ -18,15 +18,15 @@ Analysis Code: [Employee Database SQL Queries](Queries/Employee_Database_challen
 
 - **Titles held by Current Employees born between Jan 1, 1952 and Dec 31, 1955.**
 
-There are 133776 titles that were held by current employees born between Jan 1, 1952 and Dec 31, 1955. 
+There are 133,776 titles that were held by current employees born between Jan 1, 1952 and Dec 31, 1955. 
 
 - **Unique Titles of Current Employes born between Jan 1, 1952 and Dec 31, 1955.**
 
-There are 90398 current employees who maybe retiring in the near future. 
+There are 90,398 current employees who maybe retiring in the near future. 
 
 - **Number of Employees Retiring with each Title.**
 
-![Number of Retiring Employees with each title](Images/retiring_titles.PNG)
+![Number of Retiring Employees with each title](Images/retiring_titles.png)
 
 - **Employees Eligible for the Mentorship Program.**
 There are 1546 employees eligible for the Mentorship Program. 
@@ -43,6 +43,7 @@ Are there enough qualified, retirement-ready employees in the departments to men
 The following code can be used to determine the total number of employees that are eligible for retirement in the near future. 
 
         SELECT COUNT(ut.emp_no) FROM unique_titles AS ut;
+        
 The total number of employees eligible for retirement are 90398 as listed in the results under the Unique Titles section. 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?)
