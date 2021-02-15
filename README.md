@@ -27,7 +27,7 @@ Analysis Code: [Schema](Queries/schema.sql), [Employee Database SQL Queries](Que
 
 **Number of Employees Retiring with each Title.**
 - The total number of employees at the age of retirement for each title is listed in the following table.  
-![Number of Retiring Employees with each title](Images/retiring_titles.PNG)
+![Number of Retiring Employees with each title](Images/Retiring_Titles.PNG)
 
 **Employees Eligible for the Mentorship Program.**
 - There are 1546 employees eligible for the Mentorship Program. 
